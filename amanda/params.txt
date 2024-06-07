@@ -1,0 +1,10 @@
+Version MS Amanda: 3.1.21.45, Engine version 3.0.21.45
+Version Percolator: 3.05.0
+
+MS1: 5 ppm
+MS2: 10 ppm
+Cleavages: 2
+Min: 5
+Max: 30
+Static: CarbaC
+Dyn: OxiM
