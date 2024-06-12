@@ -1,0 +1,40 @@
+[DIGESTION_PARAMETERS]
+max_missed_cleavages = 2
+min_peptide_length = 5
+max_peptide_length = 30
+enzyme_name = "Trypsin"
+enzyme_cleavage = "KR"
+enzyme_inhibitor = "P"
+enzyme_specificity = "FULL"
+enzyme_offset = 1
+
+[ION_CALCULATION_PARAMETERS]
+max_precursor_charge = 4
+max_fragment_charge = "+1"
+max_neutral_losses = 1
+max_neutral_losses_modifications = 2
+
+[MODIFICATIONS]
+fixed_modifications = [ "C:57.021464" ]
+variable_modifications = [ "M:15.994915" ]
+# variable_modifications = [ "M:15.994915", "K,NTerm:138.06808" ]
+
+[VECTOR_SEARCH_PARAMETERS]
+top_n = 1000
+tolerance = 0.02
+normalize = false
+use_gaussian = true
+
+[EXACT_SEARCH_PARAMETERS]
+run_exact_search = true
+ms1_tolerance = 5.0
+ms1_tolerance_unit = "ppm"
+ms2_tolerance = 10.0
+ms2_tolerance_unit = "ppm"
+deisotope_spectra = true
+top_psms = 5
+decoy_search = true
+
+[COMPUTATION]
+mode = "CPU_DMi32"
+core_usage = 0.8
