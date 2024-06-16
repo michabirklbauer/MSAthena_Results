@@ -1,0 +1,9 @@
+---- MS Athena Search Info ----
+MS Athena version: 1.1.5
+Time of execution: 2024-06-16_22-15
+Spectra file input: HeLa_1ug_isow2_1hgradient_datasetA_rep2_deconvoluted.mgf
+Spectra file MD5: f090f9fa0cb73d187eb66862f62605b2
+Protein database input: uniprotkb_proteome_UP000005640_AND_revi_2024_03_22.fasta
+Protein database MD5: cdbcc63b52849a5becb986276b9f9574
+Config file input: config.toml
+Config file MD5: 9d16ba7e55d20b67a2f1ec5dce1a7773

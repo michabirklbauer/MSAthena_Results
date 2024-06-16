@@ -5,8 +5,11 @@ max_peptide_length = 30
 enzyme_name = "Trypsin"
 enzyme_cleavage = "KR"
 enzyme_inhibitor = "P"
+enzyme_specificity = "FULL"
+enzyme_offset = 1
 
 [ION_CALCULATION_PARAMETERS]
+ion_types = [ "b", "y" ]
 max_precursor_charge = 4
 max_fragment_charge = "+1"
 max_neutral_losses = 1
@@ -15,7 +18,6 @@ max_neutral_losses_modifications = 2
 [MODIFICATIONS]
 fixed_modifications = [ "C:57.021464" ]
 variable_modifications = [ "M:15.994915" ]
-# variable_modifications = [ "M:15.994915", "K:284.173607" ]
 
 [VECTOR_SEARCH_PARAMETERS]
 top_n = 100
@@ -24,6 +26,7 @@ normalize = false
 use_gaussian = true
 
 [EXACT_SEARCH_PARAMETERS]
+run_exact_search = true
 ms1_tolerance = 5.0
 ms1_tolerance_unit = "ppm"
 ms2_tolerance = 10.0
